@@ -1,0 +1,4 @@
+O elemento script em picture02 possui um código javascript que aplica a
+técnica de "polyfill" para o navegador internet explorer 11. Polyfill é um
+pedaço de código usado para fornecer funcionalidades modernas em navegadores
+antigos que não possui suporte nativo à elas.

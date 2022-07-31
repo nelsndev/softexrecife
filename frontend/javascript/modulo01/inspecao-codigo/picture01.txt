@@ -1,0 +1,4 @@
+A tag script do picture01 utiliza um código javascript para configurar o
+web widget (página web ou aplicação web que está embutida como um elemento
+em uma página web host, mas que é independente desta página web host -
+interage pouco ou não interage com a página web host) da página em questão.
