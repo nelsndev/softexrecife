@@ -1,0 +1,6 @@
+Escolhi o editor de código Visual Studio Code para escrever os códigos em
+javascript. Utilizo apenas 2 plugins: o Prettier - Code Formatter" que deixa
+o código formatado (adiciona indentação, ponto-e-vírgula...) e o "Material
+Icon Theme" que deixa os ícones bonitos e fáceis de distinguir. O plugin
+Bracket Pair Colorizer já vem embutido nas versões recentes do vscode, então
+não precisei instalá-lo.
