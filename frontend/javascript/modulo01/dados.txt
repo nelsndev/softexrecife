@@ -1,0 +1,9 @@
+Dados:
+    data;
+    número de telefone;
+    horário do ônibus.
+
+Usos de dados na internet:
+    cadastro de um cartão de crédito em algum e-commerce;
+    informar e-mail e senha para fazer login em algum website;
+    inserir palavras-chave em algum site de busca.
