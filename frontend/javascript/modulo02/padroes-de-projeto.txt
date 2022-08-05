@@ -1,0 +1,14 @@
+
+Strategy
+
+O Strategy é um padrão de projeto comportamental que transforma um conjunto
+de comportamentos em objetos e os torna intercambiáveis (trocáveis) dentro do
+objeto de contexto original. Esse padrão torna o nosso código mais robusto,
+resistente às mudanças que inevitavelmente acontecerão ao software para
+continuar atendendo às demandas do cliente, do mercado. Como vantagem o
+Strategy nos ajuda a mudar o comportamento dos nossos objetos em tempo de
+execução, setando o tipo específico de objeto que queremos; conseguimos um
+melhor encapsulamento; podemos substituir a herança por composição. Como
+desvantagens, podemos complicar nosso algoritmo utilizando o Strategy em um
+código que tende a não mudar com o tempo e podemos atingir resultado similar
+utilizando técnicas de programação funcional disponível em várias linguagens.
