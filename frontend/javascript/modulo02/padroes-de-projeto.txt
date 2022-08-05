@@ -11,4 +11,4 @@ execução, setando o tipo específico de objeto que queremos; conseguimos um
 melhor encapsulamento; podemos substituir a herança por composição. Como
 desvantagens, podemos complicar nosso algoritmo utilizando o Strategy em um
 código que tende a não mudar com o tempo e podemos atingir resultado similar
-utilizando técnicas de programação funcional disponível em várias linguagens.
+utilizando técnicas de programação funcional disponíveis em várias linguagens.
