@@ -30,7 +30,7 @@ function divisao(primeiroValor, segundoValor) {
   if (primeiroValor % segundoValor === 0) {
     return primeiroValor / segundoValor;
   } else {
-    let resultado = parseInt(primeiroValor / segundoValor);
+    const resultado = parseInt(primeiroValor / segundoValor);
     return `Resultado: ${resultado}; Sobra: ${primeiroValor % segundoValor}`;
   }
 }
