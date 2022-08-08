@@ -7,11 +7,11 @@ const repositorio = new Map(); // Onde ficarão armazenados os contatos
 
 const geradorDeId = {
   id: 1,
-  gera: function() {
+  gera: function () {
     let id = this.id;
     this.id++;
     return id;
-  }
+  },
 };
 
 let continua = true;
