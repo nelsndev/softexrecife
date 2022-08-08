@@ -57,14 +57,11 @@ function adiciona(contato) {
 
 function criaContato() {
   console.log();
-  const nome = prompt("Nome: ");
-  const celular = prompt("Celular: ");
-  const email = prompt("Email: ");
 
   const contato = {
-    nome: nome,
-    celular: celular,
-    email: email,
+    nome: prompt("Nome: "),
+    celular: prompt("Celular: "),
+    email: prompt("Email: "),
   };
 
   return contato;
