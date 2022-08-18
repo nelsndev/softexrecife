@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>node express</title>
+  </head>
+
+  <body>
+    <script>
+      try {
+        const nota1 = parseFloat(prompt("Nota1: "));
+        const nota2 = parseFloat(prompt("Nota2: "));
+        const nota3 = parseFloat(prompt("Nota3: "));
+        media = (nota1 + nota2 + nota3) / 3;
+        alert(media >= 7 ? "Aprovado" : "Reprovado");
+      } catch (error) {
+        alert("Dados informados inválidos.");
+        console.log(error);
+      }
+    </script>
+  </body>
+</html>
