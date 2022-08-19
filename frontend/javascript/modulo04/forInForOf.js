@@ -17,3 +17,6 @@ const listaElementos = (array) => {
   for (const elemento of array) elementos.push(elemento);
   return elementos;
 };
+
+console.log(listaPropriedades(aluno));
+console.log(listaElementos(frutas));
