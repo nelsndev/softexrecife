@@ -1,0 +1,142 @@
+/* Geral */
+
+@font-face {
+  font-family: "Xilosa";
+  src: url("fonts/xilosa.ttf");
+}
+
+:root {
+  --amarelo: #ffb511;
+  --azul: #3155a4;
+  --cinza: #444;
+  --verde: #00ad4a;
+  --vermelho: #c34342;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex; /* flexbox */
+  flex-direction: column; /* flexbox */
+  gap: 2em; /* flexbox */
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--azul);
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Cabecalho */
+
+.cabecalho {
+  display: flex; /* flexbox */
+  justify-content: center; /* flexbox */
+  padding: 2em 0;
+  background-color: var(--amarelo);
+}
+
+.cabecalho > h1 {
+  font: 700 4em "Xilosa", sans-serif;
+  letter-spacing: 4.13px;
+  color: var(--azul);
+}
+
+/* Conteudo */
+
+.conteudo {
+  max-width: 620px;
+  padding: 1.5em;
+  border-radius: 10px;
+  box-shadow: 7px 10px 15px rgba(0, 0, 0, 0.4);
+  align-self: center; /* flexbox */
+  background-color: white;
+}
+
+.conteudo p {
+  margin: 2em 0;
+  line-height: 1.5;
+  color: var(--cinza);
+}
+
+.conteudo h2 {
+  margin-bottom: 0.8em;
+  font: 800 2em "Xilosa", sans-serif;
+  color: var(--vermelho);
+}
+
+.historia,
+.referencias {
+  margin-top: 2.5em;
+}
+
+.historia span,
+.historia em {
+  font-weight: 700;
+}
+
+.referencias cite {
+  display: block;
+}
+
+.referencias a {
+  color: var(--verde);
+}
+
+.referencias a:hover {
+  color: var(--vermelho);
+  transition: color 0.5s;
+}
+
+.referencias a:active {
+  font-weight: 700;
+}
+
+/* Aside */
+
+aside {
+  margin-top: 2.5em;
+}
+
+aside > a {
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: 800;
+  background-color: rgba(0, 173, 74, 0.5);
+  color: var(--vermelho);
+}
+
+aside > a::after {
+  content: "\1f517";
+}
+
+aside > a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.rodape {
+  display: flex; /* flexbox */
+  justify-content: center; /* flexbox */
+  padding: 2em 0;
+  background-color: var(--amarelo);
+}
+
+.rodape span {
+  font-weight: 800;
+  color: var(--azul);
+}
