@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+frontend/react/meu-aplicativo/node_modules
+frontend/react/meu-aplicativo/.pnp
+frontend/react/meu-aplicativo/.pnp.js
+
+# testing
+frontend/react/meu-aplicativo/coverage
+
+# production
+frontend/react/meu-aplicativo/build
+
+# misc
+frontend/react/meu-aplicativo/.DS_Store
+frontend/react/meu-aplicativo/.env.local
+frontend/react/meu-aplicativo/.env.development.local
+frontend/react/meu-aplicativo/.env.test.local
+frontend/react/meu-aplicativo/.env.production.local
+
+frontend/react/meu-aplicativo/npm-debug.log*
+frontend/react/meu-aplicativo/yarn-debug.log*
+frontend/react/meu-aplicativo/yarn-error.log*
