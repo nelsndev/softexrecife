@@ -1,0 +1,18 @@
+.Mensagem-titulo {
+  font: 800 1.5em cursive;
+  margin-bottom: 0.4em;
+}
+
+.Mensagem-paragrafo {
+  font: 0.85em cursive;
+  margin: 0;
+}
+
+.Mensagem-link {
+  color: #61dafb;
+}
+
+.Mensagem-link:hover {
+  text-decoration: none;
+  filter: brightness(150%);
+}
