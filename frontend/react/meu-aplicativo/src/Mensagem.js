@@ -1,9 +1,9 @@
 import "./Mensagem.css";
 
-function Mensagem() {
+function Mensagem(props) {
   return (
     <section>
-      <h2 className="Mensagem-titulo">Bem-vind@ ao React!</h2>
+      <h2 className="Mensagem-titulo">{props.titulo}</h2>
       <p className="Mensagem-paragrafo">
         Aprenda React seguindo este{" "}
         <a

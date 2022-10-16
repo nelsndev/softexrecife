@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Mensagem/>
+        <Mensagem titulo="Bem-vind@ ao React!" />
       </header>
     </div>
   );
