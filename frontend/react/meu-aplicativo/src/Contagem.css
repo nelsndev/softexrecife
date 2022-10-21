@@ -1,0 +1,48 @@
+.Contagem {
+  text-align: center;
+}
+
+.Contagem-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Contagem-logo {
+    animation: Contagem-logo-spin infinite 20s linear;
+  }
+}
+
+.Contagem-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Contagem-link-container {
+  margin-top: 2em;
+}
+
+.Contagem-link {
+  font-size: 0.7em;
+  color: #61dafb;
+}
+
+.Contagem-link:hover {
+  text-decoration: none;
+  filter: brightness(150%);
+}
+
+@keyframes Contagem-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
