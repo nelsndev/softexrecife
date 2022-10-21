@@ -9,13 +9,14 @@
 }
 
 .Contador-botao {
-  margin: 3em auto 0;
-  padding: 0.75em 2.2em;
+  margin: 0.8em auto 0;
+  padding: 0.2em 1.5em;
   border: none;
   display: block;
   cursor: pointer;
   box-shadow: 0 5px 0 #61dafb;
-  font: 900 0.5em cursive;
+  font: 900 0.8em cursive;
+  color: #555;
   letter-spacing: 2px;
   background-color: white;
 }
