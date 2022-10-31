@@ -1,0 +1,43 @@
+
+Requisição:
+
+POST /informaCliente HTTP/1.1
+Host: www.empresa-x.com.br
+Content-Type: application/soap+xml; charset=utf-8
+Content-Length: nnn
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body xmlns:a="http://www.empresa-x.com.br/informaCliente">
+    <a:informaClienteRequest>
+      <a:cpf>12345678900</a:cpf>
+    </a:informaClienteRequest>
+  </soap:Body>
+</soap:Envelope>
+
+
+Resposta:
+
+HTTP/1.1 200 OK
+Content-Type: application/soap+xml; charset=utf-8
+Content-Length: nnn
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body xmlns:a="http://www.empresa-x.com.br/informaCliente">
+    <a:informaClienteResponse>
+      <a:nome>Fulano de Tal</a:nome>
+      <a:endereco>
+        Rua das flores, n 0, jardim verde, recife, pernambuco
+      </a:endereco>
+      <a:telefone>81900000000</a:telefone>
+    </a:informaClienteResponse>
+  </soap:Body>
+</soap:Envelope>
+
+
+Explicação:
+  A empresa que quer as informações do cliente terá que consumir o endpoint
+  `https://www.empresa-x.com.br/informaCleinte`, fazendo uma requisição HTTP
+  POST e informando o cpf do cliente desejado. Como resposta, ela receberá
+  um xml contendo nome, endereço e telefone do cliente cujo cpf foi informado.
