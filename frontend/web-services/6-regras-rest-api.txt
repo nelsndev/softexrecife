@@ -1,0 +1,40 @@
+
+6 Regras REST API
+
+Interface uniforme
+  Requisições e respostas devem seguir um protocolo comum de comunicação e
+  formatação de mensagens. Essa interface smiplifica de desacopla a aquitetura,
+  permitindo que ambas as partes (req e res) interajam de forma independente.
+  Existem 4 restrições de interfaces: identificação do recurso, manipulação de
+  recursos usando representações, mensagens auto-descritivas e hipermídia como
+  motor de estado da aplicação.
+
+Cliente-servidor
+  Permite uma interface regular e separar os clientes dos servidores,
+  aumentando a portabilidade em várias plataformas. Essa separação
+  significa, por exemplo, que os clientes não precisam se preocupar
+  com o armazenamento de dados e que isso é função do server.
+
+Stateless (sem estado)
+  O consumo de uma REST API deve ser stateless (sem estado). Cada requisição
+  e resposta deve prover todas as informações que são necessárias para
+  completar a interação. O servidor não armazenará de nenhuma informação das
+  requisições do passado.
+
+Armazenamento em cache
+  Melhora o desempenho. Isso pode ser feito através de uma rotulação da resposta
+  do servidor de   forma implícita ou explícita. Com uma boa administração de
+  caching, podemos eliminar parcialmente ou completamente algumas interações
+  cliente-servidor, melhorando escalabilidade e performance.
+
+Sistemas em camadas
+  Faz com que a aplicação seja mais estável, limitando o comportamento dos
+  componentes em diversas camadas. Com esse sistemas de camadas, os clientes
+  podem se conectar a um server intermediário que pode aumentar a escalabilidade
+  da aplicação, habilitando load-balancing e caching compartilhado.
+
+Código sob demanda
+  Permite que um código do cliente seja baixado e usado dentro do aplicativo.
+  Servidores podem extender e customizar a funcionalidade de um cliente,
+  transferindo a lógica para ele que este possa executá-la. É a única regra
+  opcional e é a menos usada.
