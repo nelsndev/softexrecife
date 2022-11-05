@@ -1,5 +1,8 @@
 package app;
 
+import javax.jws.WebService;
+
+@WebService(endpointInterface = "app.CalculadoraServer")
 public class CalculadoraServerImpl implements CalculadoraServer {
 
   @Override
