@@ -1,0 +1,31 @@
+
+CRUD seguindo a aquitetura REST
+
+  GET https://www.livraria.com.br/itens/livros [READ]
+    Essa rota retorna todos os livros cadastrados, em formato json, no
+    banco de dados.
+
+  GET https://www.livraria.com.br/itens/livros/2 [READ]
+    Essa rota retorna o livro, em formato json, que possui o id igual a 2
+    no banco de dados.
+
+  POST https://www.livraria.com.br/itens/livros [CREATE]
+    Essa rota adiciona um novo livro no banco de dados. Apesar de ser a
+    mesma rota que retorna todos os livros cadastrados, o método HTTP é
+    diferente, portanto a mesma rota terá uma função diferente.
+
+  UPDATE https://www.livraria.com.br/itens/livros/13 [UPDATE]
+    Essa rota atualiza o livro que possui o id igual a 13 no banco de dados.
+
+  DELETE https://www.livraria.com.br/itens/livros/62 [DELETE]
+    Essa rota deleta o livro que possui id igual a 62 cadastrano no banco de
+    dados.
+
+Exemplo de livro em json:
+
+{
+  "id": 7,
+  "nome": "Hapiness by Design: Change What You Do, Not How You Think",
+  "autor": "Paul Dolan",
+  "ISBN": "978-1594632433"
+}
