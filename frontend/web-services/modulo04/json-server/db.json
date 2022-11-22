@@ -1,0 +1,58 @@
+{
+  "jogadores": [
+    {
+      "id": 1,
+      "nome": "Vinícius Júnior",
+      "time": "Real Madrid",
+      "posição": "Atacante",
+      "selecoeId": 1
+    },
+    {
+      "id": 2,
+      "nome": "Bruno Guimarães",
+      "time": "Newcastle United",
+      "posição": "Meio-campo",
+      "selecoeId": 1
+    },
+    {
+      "id": 3,
+      "nome": "Neymar Júnior",
+      "time": "Paris Saint-Germain F.C.",
+      "posição": "Meio-campo",
+      "selecoeId": 1
+    },
+    {
+      "id": 4,
+      "nome": "Ángel Di María",
+      "time": "Juventus F.C.",
+      "posição": "Atacante",
+      "selecoeId": 2
+    },
+    {
+      "id": 5,
+      "nome": "Lautaro Martínez",
+      "time": "Inter de Milão",
+      "posição": "Atacante",
+      "selecoeId": 2
+    },
+    {
+      "id": 6,
+      "nome": "Lionel Messi",
+      "time": "Paris Saint-Germain F.C.",
+      "posição": "Atacante",
+      "selecoeId": 2
+    }
+  ],
+  "selecoes": [
+    {
+      "id": 1,
+      "nome": "Brasil",
+      "numeroDeCopas": 5
+    },
+    {
+      "id": 2,
+      "nome": "Argentina",
+      "numeroDeCopas": 2
+    }
+  ]
+}
