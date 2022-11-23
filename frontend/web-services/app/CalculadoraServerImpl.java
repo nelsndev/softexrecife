@@ -1,8 +1,10 @@
 package app;
 
 import javax.jws.WebService;
+import javax.ejb.Singleton;
 
 @WebService(endpointInterface = "app.CalculadoraServer")
+@Singleton()
 public class CalculadoraServerImpl implements CalculadoraServer {
 
   @Override
